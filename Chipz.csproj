@@ -1,0 +1,169 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FancyInput">
+      <HintPath>..\..\Logic_World_Data\Managed\FancyInput.dll</HintPath>
+    </Reference>
+    <Reference Include="FancyInput.Rebinding">
+      <HintPath>..\..\Logic_World_Data\Managed\FancyInput.Rebinding.dll</HintPath>
+    </Reference>
+    <Reference Include="FancyInput.Rendering">
+      <HintPath>..\..\Logic_World_Data\Managed\FancyInput.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="FancyPantsConsole">
+      <HintPath>..\..\Logic_World_Data\Managed\FancyPantsConsole.dll</HintPath>
+    </Reference>
+    <Reference Include="FancyPantsConsole.Interfaces">
+      <HintPath>..\..\Logic_World_Data\Managed\FancyPantsConsole.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="JimmysUnityUtilities">
+      <HintPath>..\..\Logic_World_Data\Managed\JimmysUnityUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="LICC">
+      <HintPath>..\..\Logic_World_Data\Managed\LICC.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Client">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicAPI.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Server">
+      <HintPath>..\..\Server\LogicAPI.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLocalization">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicLocalization.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLog">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicLog.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicScript">
+      <HintPath>..\..\Server\LogicScript.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicSettings.Core">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicSettings.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicSettings.Internal">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicSettings.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicSynth">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicSynth.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicUI">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicUI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Audio">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Building">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Building.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.BuildingManagement">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.BuildingManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.CameraCode">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.CameraCode.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Chat">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Chat.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.CheatCodes">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.CheatCodes.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.ClientCode">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.ClientCode.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.ClientWorldStuff">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.ClientWorldStuff.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Environments">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.GameStates">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.GameStates.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Graphics">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Input">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Interfaces">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Messages">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Modding">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Modding.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Modding.Assets">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Modding.Assets.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Modding.Compilation">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Modding.Compilation.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Networking">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Online">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Online.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Outlines">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Outlines.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Physics">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Players">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Players.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.References">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.References.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Remoting">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Rendering">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.SharedCode">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.SharedCode.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Subassemblies">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Subassemblies.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.UI">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.UnityHacksAndExtensions">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.UnityHacksAndExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Utilities">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.Worlds">
+      <HintPath>..\..\Logic_World_Data\Managed\LogicWorld.Worlds.dll</HintPath>
+    </Reference>
+    <Reference Include="Server">
+      <HintPath>..\..\Server\Server.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\Logic_World_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\Logic_World_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

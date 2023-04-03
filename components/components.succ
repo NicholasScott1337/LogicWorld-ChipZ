@@ -1,0 +1,7 @@
+ScriptableChip:
+    column: Logic
+    category: Chips
+    prefab: dynamic
+    clientCode: Chipz.client.ScriptableChip
+    logicCode: Chipz.server.ScriptableChip
+    placingRules: dynamic
